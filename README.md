@@ -14,6 +14,9 @@ Here are some questions to consider:
 
 _Keep in mind that in order to properly build out the relationships between an `Animal` and a `Zoo` class, an instance of one need to know about the instance of the other. Consider where and how this dependency needs to be implemented._
 
+### A note about notation
+When you see a '#', this means the functionality will be related to the instance, a '.', the class. 
+
 ### Zoo Class
 - A `zoo` should be initialized with a name and a location, which should both be passed as strings.
 - `Zoo#location` should return the location of the zoo instance.
@@ -34,4 +37,4 @@ _Keep in mind that in order to properly build out the relationships between an `
 - `Animal#zoo` should return the zoo instance that the instance belongs to.
 - `Animal.find_by_species` should take in an animal's species as an argument and return an array of all the animals, which are of that species.
 
-There are no `rspec` files, so it's up to you to test your code within the `run.rb` file.
+There are no `test` files, so it's up to you to test your code within the `debug.py` file.
