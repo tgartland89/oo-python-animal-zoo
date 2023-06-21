@@ -49,3 +49,38 @@ class Zoo:
 
 # adding the above @classmethod for find_by_loation will take in a location as an argument and return an 
 # list of all the zoos within that location.
+
+
+# Imagine we have a zoo. A zoo is a place where different animals live. 
+# The code helps us keep track of the animals in the zoo and perform some operations on them.
+
+# In a zoo, we can have different animals like lions, tigers, and bears. 
+# Each animal has a species (what kind of animal it is) and a nickname (a special name we give them).
+
+# The code has a special class called "Zoo." 
+# It helps us create and manage zoos. Inside the Zoo class, we have different functions (also called methods) that do specific things.
+
+# The first function is called "init" we create a new zoo, this function is called automatically. 
+# It asks for two pieces of information: the name of the zoo and its location. 
+# For example, we could create a zoo called "Central Zoo" located in "New York."
+
+# The next function is called "animals." 
+# It gives us a list of all the animals in a specific zoo. 
+# It looks at all the animals in the zoo and checks if they belong to that particular zoo. If they do, it adds them to the list.
+
+# The third function is called "animal_species." 
+# It gives us a list of all the different species of animals in the zoo. 
+# But it only includes each species once. So if there are two dogs in the zoo, it will only say "Dog" once in the list.
+
+# The fourth function is called "find_by_species." 
+# If we tell it a specific animal species, like "Lion," it will give us a list of all the lions in the zoo.
+
+# The fifth function is called "animal_nicknames." 
+# It gives us a list of all the special names (nicknames) of the animals in the zoo.
+
+# The last function is called "find_by_location." 
+# If we tell it a specific location, like "New York," it will give us a list of all the zoos in that location.
+
+# this code helps us create zoos, keep track of the animals in them, find specific animals or species, 
+# and do other useful things with them.
+
